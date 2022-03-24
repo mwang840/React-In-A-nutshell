@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <header className="App-header">React: Hooks In A Nutshell</header>
       <h2>Intro/Background</h2>
-      <p>Test</p>
+      <p className="App-body">Test</p>
       <h2>useState</h2>
       <h2>Hooks</h2>
       <h2>Examples and Some Fun</h2>
