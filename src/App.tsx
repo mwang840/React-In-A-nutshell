@@ -1,14 +1,15 @@
 import React from 'react';
 import './App.css';
+import { ClickThroughMeme } from './ClickThroughMeme';
 //import logo from "../Assets/titleScreen.jpg";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        {/*<img src={logo} className="App-logo" alt="logo" />*/}
+        <ClickThroughMeme></ClickThroughMeme>
         <p>
-          Edit <code>src/App.tsx</code> and save to reload.
+          Edit <code>the code in App.tsx</code> and save to see your progress.
         </p>
         <a
           className="App-link"
