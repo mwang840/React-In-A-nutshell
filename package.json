@@ -1,7 +1,7 @@
 {
   "name": "team-website",
   "version": "0.1.0",
-  "homepage": "https://mwang840.github.io/react-gh-pages",
+  "homepage": "https://mwang840.github.io/React-In-A-nutshell/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.3",
