@@ -7,6 +7,7 @@ function App() {
   const [use, setUse] = useState<boolean>(true);
   const [hooks, setHooks] = useState<boolean>(true);
   const [examples, setExamples] = useState<boolean>(true);
+  const [furtherReading, setFurtherReading] = useState<boolean>(true);
   return (
     <div className="App">
       <header className="App-header">React: Hooks In A Nutshell</header>
@@ -30,13 +31,16 @@ function App() {
       </Button></h2>
       {use && <div>
       <div className="App-body">
-        <p>useState is the example of a React Hook that we will be focusing on.</p>
+        <p>useState is the example of a React Hook that we will be focusing on.The most important line for useState is below: {"\n"}</p>
+        <p>[state,setState] = useState{"<type>"}(initialValue)</p>
         <li>
-          <ul>state: </ul>
-          <ul>setState: </ul>
-          <ul>useState: </ul>
-          <ul>initialValue: </ul>
+          <ul>state: represents our current Model</ul>
+          <ul>setState: sets the state of our Model, this is a low level Controller</ul>
+          <ul>useState: This creates the "hook" for storing our Model, it  will return the state and setState</ul>
+          <ul>type: this is the type of the state</ul>
+          <ul>initialValue: The initial value in state, it should be the same type as type</ul>
         </li>
+        <p>Key things to remember when using useState is that useState should not be put inside loops, conditionals, or functions, and useState must always be called within a Component Funciton.</p>
       </div>
       </div>}
       <h2>Hooks <Button onClick={() => {setHooks(!hooks);}}>
@@ -44,7 +48,7 @@ function App() {
       </Button></h2>
       {hooks && <div>
       <div className="App-body">
-        <p>Hooks are things that exist.</p>
+        <p>In the case of useState the hook is created by the useState part of the command. This creates a "hook" for us to store our state and setState on. As the data exists on the hook it will persist when the Component Function is rendered again. The Component Function is called to rerender again when the setState function has been called. The hook is needed as local variables would not stick around with a new call to the Component Function.</p>
       </div>
       </div>}
       <h2>Examples and Some Fun <Button onClick={() => {setExamples(!examples);}}>
@@ -55,6 +59,18 @@ function App() {
         <h4>Example of trying to use local variable:</h4>
         <h4>Example of using State to make a counter:</h4>
         <h4>Example with memes:</h4>
+      </div>
+      </div>}
+      <h2>Further Reading <Button onClick={() => {setFurtherReading(!furtherReading);}}>
+                Show/Hide
+      </Button></h2>
+      {furtherReading && <div>
+      <div className="App-body">
+        <li>
+          <ul><a href="https://frontend-fun.github.io/react-hooks-typescript-tome/4-state/state.html#model-view-and-controller">React TypeScript Tome</a></ul>
+          <ul><a href="https://reactjs.org/docs/hooks-intro.html">Intro to Hooks on reactjs.org</a></ul>
+          <ul><a href="https://www.w3schools.com/react/react_hooks.asp">Hooks at w3schools</a></ul>
+        </li>
       </div>
       </div>}
     </div>
