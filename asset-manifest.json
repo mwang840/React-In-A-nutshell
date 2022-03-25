@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.5411219c.css",
-    "main.js": "/react-gh-pages/static/js/main.0ff6af73.js",
-    "static/js/787.edc9f791.chunk.js": "/react-gh-pages/static/js/787.edc9f791.chunk.js",
-    "static/media/state-mutation.jpg": "/react-gh-pages/static/media/state-mutation.29bc7d8ecf6c8d726ae7.jpg",
-    "static/media/titleScreen.jpg": "/react-gh-pages/static/media/titleScreen.893f2cb086c003a0c672.jpg",
-    "static/media/react-hooks.jpg": "/react-gh-pages/static/media/react-hooks.c467f1b94ec5cdd99388.jpg",
-    "index.html": "/react-gh-pages/index.html",
-    "main.5411219c.css.map": "/react-gh-pages/static/css/main.5411219c.css.map",
-    "main.0ff6af73.js.map": "/react-gh-pages/static/js/main.0ff6af73.js.map",
-    "787.edc9f791.chunk.js.map": "/react-gh-pages/static/js/787.edc9f791.chunk.js.map"
+    "main.css": "/React-In-A-nutshell/static/css/main.5411219c.css",
+    "main.js": "/React-In-A-nutshell/static/js/main.b763f770.js",
+    "static/js/787.edc9f791.chunk.js": "/React-In-A-nutshell/static/js/787.edc9f791.chunk.js",
+    "static/media/state-mutation.jpg": "/React-In-A-nutshell/static/media/state-mutation.29bc7d8ecf6c8d726ae7.jpg",
+    "static/media/titleScreen.jpg": "/React-In-A-nutshell/static/media/titleScreen.893f2cb086c003a0c672.jpg",
+    "static/media/react-hooks.jpg": "/React-In-A-nutshell/static/media/react-hooks.c467f1b94ec5cdd99388.jpg",
+    "index.html": "/React-In-A-nutshell/index.html",
+    "main.5411219c.css.map": "/React-In-A-nutshell/static/css/main.5411219c.css.map",
+    "main.b763f770.js.map": "/React-In-A-nutshell/static/js/main.b763f770.js.map",
+    "787.edc9f791.chunk.js.map": "/React-In-A-nutshell/static/js/787.edc9f791.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5411219c.css",
-    "static/js/main.0ff6af73.js"
+    "static/js/main.b763f770.js"
   ]
 }
