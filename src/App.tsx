@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import './App.css';
 import { Button } from "react-bootstrap";
+import { ClickThroughMeme } from './ClickThroughMeme';
+//import logo from "../Assets/titleScreen.jpg";
 
 function App() {
   const [intro, setIntro] = useState<boolean>(true);
@@ -59,6 +61,7 @@ function App() {
         <h4>Example of trying to use local variable:</h4>
         <h4>Example of using State to make a counter:</h4>
         <h4>Example with memes:</h4>
+        <ClickThroughMeme></ClickThroughMeme>
       </div>
       </div>}
       <h2>Further Reading <Button onClick={() => {setFurtherReading(!furtherReading);}}>
