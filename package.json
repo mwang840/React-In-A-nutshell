@@ -24,7 +24,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "lint": "eslint ./src --ext .tsx --ext .ts --max-warnings 0",
+    "eject": "react-scripts eject",
+    "format": "prettier --config .prettierrc --write src/**/*.{ts,tsx}"
   },
   "eslintConfig": {
     "extends": [
