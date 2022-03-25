@@ -18,10 +18,11 @@ function App() {
         {intro && <div className="App-body">
       <p>Before delving further into React hooks we need to discuss some vocabulary. It is important to know that React is divided into Components, and each component has its own state. So some important vocabulary in regards to state are: </p>
       <li>
-        <ul>Model: </ul>
-        <ul>View: </ul>
-        <ul>Controller: </ul>
+        <ul>Model: describes the possible values that the State can live in.</ul>
+        <ul>View: what shows your current State</ul>
+        <ul>Controller: part that allows changes to be made to the current State</ul>
       </li>
+      <p>React is organized by Components, and each of these Components has a State. The main Component that is focused on is called App and therefore its State is the most important. This State is our <strong>Model</strong>. The Components function which simply returns HTML as something to display is our <strong>View</strong>. Finally the View can have interactability such as clicking buttons, checkmarks, or entering text. These events can be bound to functions that are called when the even occurs that modify the Model. The functions are the <strong>Controllers</strong>.</p>
       </div>}
       </div>
       <h2>useState <Button onClick={() => {setUse(!use);}}>
