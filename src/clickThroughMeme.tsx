@@ -1,20 +1,20 @@
 import { useState } from "react";
 import { Image } from "react-bootstrap";
-import  "./Assets/react-hooks.jpg";
-import  "./Assets/state-mutation.jpg";
-import  "./Assets/titleScreen.jpg";
+import hooks from "./assets/react-hooks.jpg";
+import mutated from"./assets/state-mutation.jpg";
+import title from "./assets/titleScreen.jpg";
 
 export function ClickThroughMeme(): JSX.Element{
-    const listOfMemes: string[] = ["react-hooks", "state-mutation", "titleScreen"];
-    const [meme, changeMemes] = useState<string>(listOfMemes[0]);
-    const source = `./Assets/${meme}.jpg`;
+    const listOfMemes = [hooks, mutated, title];
+    const [meme, changeMemes] = useState<number>(0);
+    const source = listOfMemes[meme];
 
     //Changes the index and picture on click
     const clickMemes= (): void=>{
         const chosenIndex = Math.floor(Math.random() * listOfMemes.length);
-        changeMemes(listOfMemes[chosenIndex]);
+        changeMemes(chosenIndex);
     };
 
-    return <Image onClick={clickMemes} src={source}/>
+    return <Image className="memezee" onClick={clickMemes} src={source} alt="React memes"/>
 }
   
