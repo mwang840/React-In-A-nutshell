@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
 import { Button } from "react-bootstrap";
-import { ClickThroughMeme } from './ClickThroughMeme';
+import { ClickThroughMeme } from './clickThroughMeme';
 //import logo from "../Assets/titleScreen.jpg";
 
 function App() {
