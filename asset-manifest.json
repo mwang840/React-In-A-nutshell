@@ -1,18 +1,21 @@
 {
   "files": {
-    "main.css": "/React-In-A-nutshell/static/css/main.5411219c.css",
-    "main.js": "/React-In-A-nutshell/static/js/main.b763f770.js",
+    "main.css": "/React-In-A-nutshell/static/css/main.5372c8be.css",
+    "main.js": "/React-In-A-nutshell/static/js/main.e3d630f4.js",
     "static/js/787.edc9f791.chunk.js": "/React-In-A-nutshell/static/js/787.edc9f791.chunk.js",
     "static/media/state-mutation.jpg": "/React-In-A-nutshell/static/media/state-mutation.29bc7d8ecf6c8d726ae7.jpg",
     "static/media/titleScreen.jpg": "/React-In-A-nutshell/static/media/titleScreen.893f2cb086c003a0c672.jpg",
     "static/media/react-hooks.jpg": "/React-In-A-nutshell/static/media/react-hooks.c467f1b94ec5cdd99388.jpg",
+    "static/media/CounterCode.jpg": "/React-In-A-nutshell/static/media/CounterCode.7aeb98d5102d38eaad41.jpg",
+    "static/media/BrokenCounter.jpg": "/React-In-A-nutshell/static/media/BrokenCounter.8c450a7a4b8f5242fade.jpg",
+    "static/media/memeCode.jpg": "/React-In-A-nutshell/static/media/memeCode.4324507ac70200a3714d.jpg",
     "index.html": "/React-In-A-nutshell/index.html",
-    "main.5411219c.css.map": "/React-In-A-nutshell/static/css/main.5411219c.css.map",
-    "main.b763f770.js.map": "/React-In-A-nutshell/static/js/main.b763f770.js.map",
+    "main.5372c8be.css.map": "/React-In-A-nutshell/static/css/main.5372c8be.css.map",
+    "main.e3d630f4.js.map": "/React-In-A-nutshell/static/js/main.e3d630f4.js.map",
     "787.edc9f791.chunk.js.map": "/React-In-A-nutshell/static/js/787.edc9f791.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5411219c.css",
-    "static/js/main.b763f770.js"
+    "static/css/main.5372c8be.css",
+    "static/js/main.e3d630f4.js"
   ]
 }
