@@ -20,7 +20,7 @@ export function ClickThroughMeme(): JSX.Element{
         <Image className="memezee" onClick={clickMemes} src={source} alt="React memes"/>
         <br></br>
         <Image className="sampleCode" src={codeSample} alt="code for clickThroughMeme"/>
-        <p>In the code above the useState we use is one line 10, in this case the state is meme, setState is changeMemes, type is number, and initialValue is 0. On line 14 a function called clickMemes generates a random number between 0 and the length of the listOfMemes on line 9. changeMemes is then called with this number. Finally a return of an image based on the value of meme is returned that when clicked on will call the clickMemes function.</p>
+        <p>In the code above the useState we use is one line 10, in this case the state is meme, setState is changeMemes, type is number, and initialValue is 0. On line 14 a function called clickMemes generates a random number between 0 and the length of the listOfMemes on line 9. changeMemes is then called with this number. Finally a return of an image based on the value of meme is returned that when clicked on will call the clickMemes</p>
         </div>
 }
   

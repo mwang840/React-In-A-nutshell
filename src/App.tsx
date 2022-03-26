@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import './App.css';
 import { Button } from "react-bootstrap";
 import { ClickThroughMeme } from './clickThroughMeme';
+import { Counter } from './Counter';
+import { BadCounter } from './BadCounter';
 //import logo from "../Assets/titleScreen.jpg";
 
 function App() {
@@ -59,7 +61,9 @@ function App() {
       {examples && <div>
       <div className="App-body">
         <h4>Example of trying to use local variable:</h4>
+        <BadCounter></BadCounter>
         <h4>Example of using State to make a counter:</h4>
+        <Counter></Counter>
         <h4>Example with memes:</h4>
         <ClickThroughMeme></ClickThroughMeme>
       </div>
