@@ -15,6 +15,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">React: Hooks In A Nutshell</header>
+      <h1>By Maxwell Wang, Eric Toreki and Joshua Strassle</h1>
       <h2>
         Intro/Background{" "}
         <Button
@@ -53,7 +54,7 @@ function App() {
               returns HTML as something to display is our <strong>View</strong>.
               Finally the View can have interactability such as clicking
               buttons, checkmarks, or entering text. These events can be bound
-              to functions that are called when the even occurs that modify the
+              to functions that are called when the event occurs that modify the
               Model. The functions are the <strong>Controllers</strong>.
             </p>
           </div>
@@ -96,7 +97,7 @@ function App() {
             <p>
               Key things to remember when using useState is that useState should
               not be put inside loops, conditionals, or functions, and useState
-              must always be called within a Component Funciton.
+              must always be called within a Component function.
             </p>
           </div>
         </div>
@@ -115,13 +116,13 @@ function App() {
         <div>
           <div className="App-body">
             <p>
-              In the case of useState the hook is created by the useState part
+              In the case of useState, the hook is created by the useState part
               of the command. This creates a hook for us to store our state
               setState on. As the data exists on the hook it will persist when
-              when the Component Function is rendered again. The Component
-              Function is called to rerender again when the setState function
-              has been called. The hook is needed as local variables would not
-              stick around with a new call to the Component Function.
+              the Component Function is rendered again. The Component Function
+              is called to rerender again when the setState function has been
+              called. The hook is needed as local variables would not stick
+              around with a new call to the Component Function.
             </p>
           </div>
         </div>
