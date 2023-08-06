@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/React-In-A-nutshell/static/css/main.5372c8be.css",
-    "main.js": "/React-In-A-nutshell/static/js/main.e3d630f4.js",
+    "main.js": "/React-In-A-nutshell/static/js/main.ee00d18f.js",
     "static/js/787.edc9f791.chunk.js": "/React-In-A-nutshell/static/js/787.edc9f791.chunk.js",
     "static/media/state-mutation.jpg": "/React-In-A-nutshell/static/media/state-mutation.29bc7d8ecf6c8d726ae7.jpg",
     "static/media/titleScreen.jpg": "/React-In-A-nutshell/static/media/titleScreen.893f2cb086c003a0c672.jpg",
@@ -11,11 +11,11 @@
     "static/media/memeCode.jpg": "/React-In-A-nutshell/static/media/memeCode.4324507ac70200a3714d.jpg",
     "index.html": "/React-In-A-nutshell/index.html",
     "main.5372c8be.css.map": "/React-In-A-nutshell/static/css/main.5372c8be.css.map",
-    "main.e3d630f4.js.map": "/React-In-A-nutshell/static/js/main.e3d630f4.js.map",
+    "main.ee00d18f.js.map": "/React-In-A-nutshell/static/js/main.ee00d18f.js.map",
     "787.edc9f791.chunk.js.map": "/React-In-A-nutshell/static/js/787.edc9f791.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5372c8be.css",
-    "static/js/main.e3d630f4.js"
+    "static/js/main.ee00d18f.js"
   ]
 }
